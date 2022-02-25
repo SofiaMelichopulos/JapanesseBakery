@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+body {background-image:
+url(https://thumbs.dreamstime.com/b/concrete-background-texture-wallpaper-grey-wall-grey-concrete-background-texture-wallpaper-159036746.jpg);
+padding: 50px; font-family: 'Ubuntu', sans-serif;
+margin-top: 0px;
+}
+
+.menu ul {
+list-style-type: none;
+}
+
+h1{ display:none;}
+
+li {
+display: inline;
+width: 50%;
+position:relative;
+font-size: 14px
+}
+
+ul ul {
+position: absolute;
+display: none;
+}
+
+ul ul li {
+display: block;
+
+}
+
+.menu ul li a {
+color: black;text-decoration: none;
+
+padding: 10px
+}
+
+.logo img { height: auto;
+width: 75px;
+margin-left: 0px;
+display: block;
+
+}
+
+.main { display: flex;
+flex-direction: row;
+border-spacing: 50px;
+}
+
+.container {
+margin-right: 15px;
+margin-top: 15px;
+
+}
+
+.item {
+margin-right: 10px;
+margin-top: 5px;
+width: 25%;
+}
+
+
+.footer .footer2 {display: flex;
+flex-direction: row;
+border-spacing: 10px;
+justify-content: flex-end;
+
+}
+.redes-logos{
+flex-direction: row;
+}
+
+.redes{
+font-family: 'Ubuntu';
+}
+
+.fotosmultiplicadas{ display: flex;
+justify-content: center;
+}
+
+.item3 {margin-right: 10px;
+margin-top: 5px;
+width: 25%;}
+
+.item4{ display: flex;
+justify-content: center;
+
+}
+
+.groupcontainer{ display: grid;
+column-gap: 4rem;
+grid-template-columns: 100px 100px 100px 100px;
+grid-template-rows: (2, 1fr);
+justify-content: center;
+}
+
+.recetasgeneral{display: none;}
+
+
+.group{width: 150px;
+margin-top: 5px;
+}
+
+.container2 {
+display: flex;
+flex-direction: row;
+}
+
+.logo2 img { height: auto;
+width: 75px;
+margin-left: 0px;
+display: block;
+padding-top: 10px;
+}
+
+.menu{ display: grid;
+justify-content: end;
+}
+h3{display: none;}
+
+
+@media only screen and (max-width: 600px) {
+
+body{ background-image:
+url(https://thumbs.dreamstime.com/b/concrete-background-texture-wallpaper-grey-wall-grey-concrete-background-texture-wallpaper-159036746.jpg);
+padding: 50px; font-family: 'Ubuntu', sans-serif;
+margin-top: 0px;}
+
+.menu ul {
+
+display: flex;
+flex-direction: column;
+}
+
+
+.menu ul li a{
+padding: 0;
+}
+
+
+.header {
+
+display: flex;
+justify-content: flex-start;
+}
+
+.main  {
+display: grid;
+justify-content: center;
+
+
+}
+
+.container {
+display: grid;
+align-content: center;
+height:80%;
+width:80%;
+top:0px;
+left:0px;
+}
+
+
+h3
+{display: none
+}
+
+.contenido1 {
+
+display: grid;
+justify-content: center;
+
+}
+
+.container2 {
+
+display: grid;
+grid-template-columns: 50% 50%;
+margin-bottom: 7%;
+
+}
+
+.item { width: 60%;
+max-width: 60%;
+}
+
+.footer{ display: flex;
+flex-direction: row-reverse;
+
+}
+
+h2 {display: none;
+
+}
+
+.iframe1 {display: none;}
+
+.gridmain { display: grid;
+grid-template-columns: 30% 30% 30% 30%;
+
+}
+
+.item4 {
+display: flex;
+justify-content: center;
+margin-bottom: 5%
+
+}
+.item5 { width: 100%
+
+}
+
+.fotosmultiplicadas {
+display: flex;
+justify-content: center;
+margin-bottom: 7%;
+}
+
+.item3 { width: 55%;
+
+}
+
+
+.textonosotros{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+
+ .groupcontainer {
+	display: none;
+}
+
+form {
+padding-bottom: 5%
+
+}
+
+.recetasgeneral { display: grid;
+	padding-bottom: 5%;
+
+}
+
+.itemreceta{
+	width: 50%;
+max-width: 50%;
+
+}
+
+.contenedoreceta1{
+	display: flex;
+}
+.contenedoreceta2{
+	display: flex;
+}
+
+.contenedoreceta3{
+	display:flex;
+}
+
+.contenedoreceta4{ 
+	display: flex;
+}
+
+
+
+}
